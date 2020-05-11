@@ -4,7 +4,7 @@
 #pragma once
 
 // enable default test
-#define TEST 2
+#define TEST 6
 
 // enable copy contructor test
 //#define TEST 1

@@ -22,7 +22,7 @@ SimpleString::SimpleString(const SimpleString& aOtherString)
 	{
 		fCharacters[i] = aOtherString.fCharacters[i];
 	}
-}
+}//	Copy Constructor
 
 #endif
 
@@ -30,16 +30,27 @@ SimpleString::SimpleString(const SimpleString& aOtherString)
 
 SimpleString& SimpleString::operator=(const SimpleString& aOtherString)
 {
+	if (&aOtherString != this)
+	{
+		delete fCharacters;
+		int lLength = strlen(aOtherString.fCharacters) + 1;
+		fCharacters = new char[lLength];
 
-}
+		for (unsigned int i = 0; i < lLength; i++)
+		{
+			fCharacters[i] = aOtherString.fCharacters[i];
+		}
+	}
+	return *this;
+}// Explicit Assignment Operator
 
 #endif
 
 #if TEST >= 5
 
-virtual SimpleString::SimpleString* clone()
+SimpleString* SimpleString::clone()
 {
-
+	return new SimpleString(*this);
 }
 
 #endif

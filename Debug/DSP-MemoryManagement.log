@@ -1,5 +1,21 @@
 ﻿  Main.cpp
+C:\Users\jyest\Desktop\DSP-MemoryManagement\HandleImpl.h(25,1): error C2059: syntax error: '*'
+C:\Users\jyest\Desktop\DSP-MemoryManagement\HandleImpl.h(75): message : see reference to class template instantiation 'Handle<T>' being compiled
+C:\Users\jyest\Desktop\DSP-MemoryManagement\HandleImpl.h(27,14): error C3861: 'aPointer': identifier not found
+C:\Users\jyest\Desktop\DSP-MemoryManagement\HandleImpl.h(61,15): error C2039: 'runtime_error': is not a member of 'std'
+C:\Users\jyest\Desktop\DSP-MemoryManagement\predefined C++ types (compiler internal)(367): message : see declaration of 'std'
+C:\Users\jyest\Desktop\DSP-MemoryManagement\HandleImpl.h(66,7): error C3861: 'fPoiter': identifier not found
+C:\Users\jyest\Desktop\DSP-MemoryManagement\HandleImpl.h(72,15): error C2039: 'runtime_error': is not a member of 'std'
+C:\Users\jyest\Desktop\DSP-MemoryManagement\predefined C++ types (compiler internal)(367): message : see declaration of 'std'
+C:\Users\jyest\Desktop\DSP-MemoryManagement\Main.cpp(90,51): error C2664: 'Handle<SimpleString>::Handle(const Handle<SimpleString> &)': cannot convert argument 1 from 'SimpleString *' to 'const Handle<SimpleString> &'
+C:\Users\jyest\Desktop\DSP-MemoryManagement\Main.cpp(90,51): message : Reason: cannot convert from 'SimpleString *' to 'const Handle<SimpleString>'
+C:\Users\jyest\Desktop\DSP-MemoryManagement\Main.cpp(90,51): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\jyest\Desktop\DSP-MemoryManagement\HandleImpl.h(31,2): message : see declaration of 'Handle<SimpleString>::Handle'
+C:\Users\jyest\Desktop\DSP-MemoryManagement\Main.cpp(92,45): error C2664: 'Handle<SimpleString>::Handle(const Handle<SimpleString> &)': cannot convert argument 1 from 'SimpleString *' to 'const Handle<SimpleString> &'
+C:\Users\jyest\Desktop\DSP-MemoryManagement\Main.cpp(92,45): message : Reason: cannot convert from 'SimpleString *' to 'const Handle<SimpleString>'
+C:\Users\jyest\Desktop\DSP-MemoryManagement\Main.cpp(92,45): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\jyest\Desktop\DSP-MemoryManagement\HandleImpl.h(31,2): message : see declaration of 'Handle<SimpleString>::Handle'
   SimpleString.cpp
-C:\Users\Jye\Desktop\Code\DSP-MemoryManagement\SimpleString.cpp(21,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jyest\Desktop\DSP-MemoryManagement\SimpleString.cpp(21,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jyest\Desktop\DSP-MemoryManagement\SimpleString.cpp(39,30): warning C4018: '<': signed/unsigned mismatch
   Generating Code...
-  DSP-MemoryManagement.vcxproj -> C:\Users\Jye\Desktop\Code\DSP-MemoryManagement\Debug\DSP-MemoryManagement.exe

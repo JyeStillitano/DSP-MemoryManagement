@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="HandleImpl.h" />
     <ClInclude Include="SimpleString.h" />
     <ClInclude Include="Test.h" />
   </ItemGroup>
