@@ -1,0 +1,5 @@
+﻿  Main.cpp
+  SimpleString.cpp
+C:\Users\Jye\Desktop\Code\DSP-MemoryManagement\SimpleString.cpp(21,29): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  DSP-MemoryManagement.vcxproj -> C:\Users\Jye\Desktop\Code\DSP-MemoryManagement\Debug\DSP-MemoryManagement.exe
